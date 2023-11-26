@@ -136,7 +136,13 @@ ul.row {
     text-align: var(--section-header-align);
     padding: var(--section-header-padding);
 }
-  
+
+[data-section-theme="dark"] {
+    --text-color: var(--color-white);
+    --section-title-color: var(--color-white);
+    background-color: var(--color-black);
+}
+
 .section-body {
     padding: var(--section-body-padding);
 }
